@@ -28,10 +28,10 @@ TC_Jubilee_SalesJ_PosTH_001-optinfuture อนุญาต
     Sleep    1.5s
     Capture Page Screenshot    E:/Fullloop/WORK_Project/Jubilee/Screen-TestRobot_New Normal/TestDate_20200605/Sales/Jubilee Diamond/TC1/QN_CSAT_TH.png
     sleep    1.5s
-    Click Element    ${Score10}    #Click Score 10 CSAT
+    Click Element    ${Score8}    #Click Score 8 CSAT
     #Input CSAT OA
     OA_CSATPos    ${Check_CSATOA_Pos}
-    Press Key    name = csat_pos    ราคาถูกกว่าคู่แข่ง พนักงานแจ้งสิทธิประโยชน์ของสมาชิกได้ดีมาก
+    Press Key    name = csat_pos    พนักงานแจ้งสิทธิประโยชน์ของสมาชิกได้ดีมาก
     sleep    1.5s
     Capture Page Screenshot    E:/Fullloop/WORK_Project/Jubilee/Screen-TestRobot_New Normal/TestDate_20200605/Sales/Jubilee Diamond/TC1/Positive_PageCSATOAPositive_TH.png
     sleep    1.5s
